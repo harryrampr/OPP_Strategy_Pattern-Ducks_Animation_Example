@@ -10,6 +10,10 @@ echo '<h1>Duck Animation Simulation</h1>', PHP_EOL;
 
 $d1 = new MallardDuck();
 echo '<h2>', basename(get_class($d1)), '</h2>', PHP_EOL;
+
+/**
+ * @var MallardDuck $d1
+ */
 $d1->performQuack();
 $d1->performFly();
 $d1->swim();
@@ -18,6 +22,10 @@ $d1->display();
 
 $d2 = new RubberDuck();
 echo '<h2>', basename(get_class($d2)), '</h2>', PHP_EOL;
+
+/**
+ * @var RubberDuck $d2
+ */
 $d2->performQuack();
 $d2->performFly();
 $d2->swim();
