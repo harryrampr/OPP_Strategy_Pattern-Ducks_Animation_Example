@@ -70,7 +70,7 @@ abstract class Duck
      * Displays the duck.
      * This method should be implemented by concrete duck classes.
      */
-    abstract public function display();
+    abstract public function display(): void;
 
     /**
      * Performs the quack behavior of the duck.

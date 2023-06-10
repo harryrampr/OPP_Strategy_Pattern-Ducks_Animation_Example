@@ -16,6 +16,6 @@ class FlyNoWay implements FlyBehaviorInterface
      */
     public function fly(): void
     {
-        echo '<p>The duck can\'t fly</p>', PHP_EOL;
+        echo "<p>The duck can't fly</p>", PHP_EOL;
     }
 }
